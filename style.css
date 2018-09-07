@@ -1,7 +1,72 @@
 
 
-    .mystyle{
-        text-decoration: line-through;
+   
+
+   body{
+        background: #f8f8f8;
     }
 
+    #menu{
+        
+color: blue;
+font-family:Verdana, Tahoma, sans-serif ;
+font-style: italic;
+font-variant: small-caps;
+font-size: large;
+list-style-type: none; 
 
+    }
+ul li a {
+    color: inherit;
+}
+h2{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.shotopis{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+
+}
+#task_c{
+    width: 50%;
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+}
+.task_4d{
+    color: darkcyan;
+    font-family: fantasy;
+    list-style-image: url(img/icn1.png)
+}
+
+
+.task_5{
+border-color: rgb(174, 236, 236);
+border-radius: 8px;
+background-color: rgb(235, 250, 236);
+height: 24px; 
+width: 320px;
+color: #0c0322; 
+font-size: 14px; 
+font-family: Tahoma
+}
+.frame{
+    border: 10px solid rgb(116, 145, 92);
+}
+@font-face {
+    font-family: myFont; 
+    src: url("fonts/12205.ttf"); }
+    #font{
+        font-family: myFont;
+        font-size: 50px;
+    }
+    #bg{
+        background-image: url("background/73e2912e.png")
+    }
