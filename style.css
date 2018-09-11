@@ -14,8 +14,12 @@ font-style: italic;
 font-variant: small-caps;
 font-size: large;
 list-style-type: none; 
-
     }
+#menu:hover{
+    color: red;
+}
+
+
 ul li a {
     color: inherit;
 }
@@ -55,12 +59,16 @@ height: 24px;
 width: 320px;
 color: #0c0322; 
 font-size: 14px; 
-font-family: Tahoma
+font-family: Tahoma;
+text-transform: capitalize;
 }
 .frame{
     border: 10px solid rgb(116, 145, 92);
+    width:300px;
+    height:300px;
 }
 @font-face {
+   
     font-family: myFont; 
     src: url("fonts/12205.ttf"); }
     #font{
@@ -70,3 +78,16 @@ font-family: Tahoma
     #bg{
         background-image: url("background/73e2912e.png")
     }
+    .frame1{
+        width:150px;
+        height:150px;
+    }
+   /* header img {
+       list-style-image: url()
+   } */
+   #foc:focus {
+background-color: lightgreen;
+color: blue;
+text-transform: lowercase;
+   }
+   
