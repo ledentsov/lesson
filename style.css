@@ -15,7 +15,7 @@ font-variant: small-caps;
 font-size: large;
 list-style-type: none; 
     }
-#menu:hover{
+#menu li:hover{
     color: red;
 }
 
@@ -34,7 +34,11 @@ h2{
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
-
+}
+.shotopis:first-letter {
+    color: rgb(105, 141, 75);
+    font-size: 200%;
+    
 }
 #task_c{
     width: 50%;
@@ -60,12 +64,21 @@ width: 320px;
 color: #0c0322; 
 font-size: 14px; 
 font-family: Tahoma;
-text-transform: capitalize;
+text-transform: capitalize
 }
+
 .frame{
     border: 10px solid rgb(116, 145, 92);
     width:300px;
     height:300px;
+}
+.frame:hover{
+    
+    /* border: 10px solid #f8f8f8; */
+    
+    padding: 10px;
+    border: transparent;
+    
 }
 @font-face {
    
@@ -81,13 +94,40 @@ text-transform: capitalize;
     .frame1{
         width:150px;
         height:150px;
+        padding: 10px;
     }
-   /* header img {
-       list-style-image: url()
-   } */
+    #foc{
+        text-transform:   lowercase;
+    }
    #foc:focus {
 background-color: lightgreen;
 color: blue;
-text-transform: lowercase;
    }
-   
+   table {
+       border-collapse: collapse;
+   }
+   tr:first-child{
+    height: 80px;
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 200%;
+   }
+   td {
+    border: 1px solid #0c0322 ; 
+    width: 180px;
+    height: 40px;
+    text-align: center;
+   }
+   .colors:nth-child(2){
+       background-color: rgb(182, 178, 192);
+       }
+   .colors:nth-child(3){
+    background-color: rgb(221, 164, 41);
+}
+.colors:nth-child(4){
+    color: #eaeaea;
+    background-color: rgb(0, 0, 0);
+}
+.colors:nth-child(5){
+    
+    background-color: yellow ;
+}
