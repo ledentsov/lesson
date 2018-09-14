@@ -16,8 +16,7 @@ body{
     font-size: large;
     list-style-type: none;
         display: flex;
-        flex-direction: row-reverse;
-        justify-content: flex-start;
+        justify-content: flex-end;
         padding-right: 7px;
         padding-bottom: 67px;
 
