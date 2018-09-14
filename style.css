@@ -2,26 +2,34 @@
 
    
 
-   body{
-        background: #f8f8f8;
+body{
+    background: #f8f8f8;
+    /* width: 1100px;
+    margin: 0 auto; */
     }
 
-    #menu{
-        
-color: blue;
-font-family:Verdana, Tahoma, sans-serif ;
-font-style: italic;
-font-variant: small-caps;
-font-size: large;
-list-style-type: none; 
+#menu{
+    color: blue;
+    font-family:Verdana, Tahoma, sans-serif ;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: large;
+    list-style-type: none;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        padding-right: 7px;
+        padding-bottom: 67px;
+
     }
 #menu li:hover{
     color: red;
+    
 }
-
 
 ul li a {
     color: inherit;
+    padding-right: 7px;
 }
 h2{
     color: black;
@@ -41,7 +49,7 @@ h2{
     
 }
 #task_c{
-    width: 50%;
+    width: 100%;
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -56,21 +64,22 @@ h2{
 
 
 .task_5{
-border-color: rgb(174, 236, 236);
-border-radius: 8px;
-background-color: rgb(235, 250, 236);
-height: 24px; 
-width: 320px;
-color: #0c0322; 
-font-size: 14px; 
-font-family: Tahoma;
-text-transform: capitalize
+    border-color: rgb(174, 236, 236);
+    border-radius: 8px;
+    background-color: rgb(235, 250, 236);
+    height: 24px; 
+    width: 320px;
+    color: #0c0322; 
+    font-size: 14px; 
+    font-family: Tahoma;
+    text-transform: capitalize
 }
 
 .frame{
     border: 10px solid rgb(116, 145, 92);
     width:300px;
     height:300px;
+    float: left;
 }
 .frame:hover{
     
@@ -84,43 +93,46 @@ text-transform: capitalize
    
     font-family: myFont; 
     src: url("fonts/12205.ttf"); }
-    #font{
+#font{
         font-family: myFont;
         font-size: 50px;
     }
-    #bg{
-        background-image: url("background/73e2912e.png")
+#bg{
+        background-image: url("background/73e2912e.png");
+        height: 180px; 
     }
-    .frame1{
+.frame1{
         width:150px;
         height:150px;
-        padding: 10px;
+        padding: 15px;
+        float: left;
+        
     }
-    #foc{
+#foc{
         text-transform:   lowercase;
     }
-   #foc:focus {
-background-color: lightgreen;
-color: blue;
+#foc:focus {
+    background-color: lightgreen;
+    color: blue;
    }
-   table {
+table {
        border-collapse: collapse;
    }
-   tr:first-child{
+tr:first-child{
     height: 80px;
     font-family: "Times New Roman", Times, serif; 
     font-size: 200%;
    }
-   td {
+td {
     border: 1px solid #0c0322 ; 
     width: 180px;
     height: 40px;
     text-align: center;
    }
-   .colors:nth-child(2){
+.colors:nth-child(2){
        background-color: rgb(182, 178, 192);
        }
-   .colors:nth-child(3){
+.colors:nth-child(3){
     background-color: rgb(221, 164, 41);
 }
 .colors:nth-child(4){
@@ -131,3 +143,50 @@ color: blue;
     
     background-color: yellow ;
 }
+.container{
+  width: 1100px;
+  margin: 0 auto;
+ 
+}
+h3 {
+    padding: 17px
+}
+footer{
+    height: 85px;
+    text-align: end;
+    padding-right: 20px;
+    padding-top: 20px;
+
+   } 
+   #h_2{
+       clear: both;
+      
+   }
+.button{
+    text-align: center;
+}   
+.button img{
+    width:30px;
+    height:30px;
+}
+
+
+
+   /* кнопка способ 2 */
+/* .button a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid #c5c2ce;
+    background: #c5c2ce;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 30px;
+ }
+
+ .button a:hover{
+    border: 1px solid black;
+    color: brown;
+ } */
+ 
